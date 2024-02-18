@@ -73,7 +73,7 @@ ROOT_URLCONF = 'Instigram.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR.joinpath('Front_End/','Sign_Up')],
+        'DIRS': [BASE_DIR.joinpath('Front_End')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -144,7 +144,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS= [
-    os.path.join(BASE_DIR,'Front_End','Sign_Up', 'dist'),
+    os.path.join(BASE_DIR,'Front_End'),
 ]
 
-
+MEDIA_URL= '/media/'
+MEDIA_ROOT= os.path.join(BASE_DIR,'media')
