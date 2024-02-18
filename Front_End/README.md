@@ -2,10 +2,14 @@
 
 This folder contains all the front end files for this project.
 
-Files are arranged in the following structure:- 
-- Page Folder
-    - Components Folder
-          - Separate folder for each Component
-    - Assets Folder
+Files are arranged in the following structere:
+- src
+    - Components folder
+        - Separate folder for each component
+    
+    - Pages folder
+        - Separate folder for each page
+    
+    - Assets folder
+
     - App.jsx
-    - styles.css
